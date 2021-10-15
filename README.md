@@ -22,6 +22,6 @@ Table structure:
   aTimestamp timestamp NOT NULL  
   
 Edit the `sender.php` and set your username and password for rabbitmq.If you are using different url or/and different exchange then change them too.  
-Edit the `receiver.php` and set your username and password for rabbitmq.If you are using different url or/and different exchange then change them too.  
+Edit the `receiver.php` and set your username and password for rabbitmq.If you are using different url or/and different queue then change them too.  
 In one terminal run the command `php sender.php`.  
 In another terminal run the command `php receiver.php`.  
