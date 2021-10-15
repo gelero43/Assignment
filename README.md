@@ -7,7 +7,7 @@ PHP sender and receiver using rabbitmq as message broker
   3.Apache server  
 
 ## Running the project
-If you are using xammp download the files and copy them inside htdocs.After that open a terminal in that directory and run `composer install` command.  
+If you are using xammp download the files inside htdocs.After that open a terminal in that directory and run `composer install` command.  
 Edit `connectionToDB.php` and set your username and password.If you are using different servername or/and db change them as well.  
 If myData table dont exist in your database run the command `php createTable.php` command in the directory that the file is located to create the table.  
 
